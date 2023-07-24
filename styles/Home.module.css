@@ -1,0 +1,130 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.left {
+  height: 100vh;
+  width: 500px;
+  background: linear-gradient(
+    180deg,
+    #327ae4 37.4%,
+    rgba(50, 122, 228, 0) 114.94%
+  );
+}
+
+.right {
+  background: white;
+  height: 100vh;
+  /* display: flex; */
+  padding-right: 11em;
+}
+
+.line1 {
+  border: 20px solid rgba(255, 255, 255, 0.1);
+  transform: rotate(-0.73deg);
+  width: 570.92px;
+  height: 202px;
+  position: absolute;
+  left: 1.72px;
+  top: 331.67px;
+}
+
+.right div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  margin-top: 5em;
+}
+
+.right div h2 {
+  font-family: "sans-seriff";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58px;
+}
+
+.right div h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 43px;
+}
+
+.right div p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.right form label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 1em;
+}
+
+.right input {
+  width: 520px;
+  height: 44px;
+  border: 1px solid #b8b5b5;
+  border-radius: 10px;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+}
+
+.right input::placeholder {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.right span {
+  align-self: flex-end;
+  color: #327ae4;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.right button {
+  width: 310px;
+  height: 49px;
+  padding: 10px;
+  gap: 10px;
+  background: #327ae4;
+  border-radius: 10px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+  align-self: center;
+  margin-top: 1em;
+  cursor: pointer;
+}
